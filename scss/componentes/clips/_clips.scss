@@ -1,0 +1,23 @@
+.clip{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: all .5s;
+}
+.clip1{
+    background: url(/img/2.jpg) center;
+    background-size: cover;
+    clip-path: polygon(0 0, 46% 0, 39% 100%, 0 100%);
+}
+.clip2{
+    background: url(/img/1.jpg) center;
+    background-size: cover;
+    clip-path: polygon(19% 0, 87% 0, 64% 100%, 33% 100%);
+}
+.clip3{
+    background: url(/img/3.jpg) center;
+    background-size: cover;
+    clip-path: polygon(82% 0, 100% 0, 100% 100%, 63% 100%);
+}
